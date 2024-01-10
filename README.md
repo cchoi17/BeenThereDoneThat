@@ -1,2 +1,3 @@
 # BeenThereDoneThat
-christina choi's beentheredonethat journaling app
+Senior Project II 2024
+Christina Choi's BeenThereDoneThat journaling app
