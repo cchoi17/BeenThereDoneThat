@@ -1,3 +1,3 @@
 # BeenThereDoneThat
 Senior Project II 2024 <br>
-Christina Choi's BeenThereDoneThat journaling app
+Christina Choi and Troy Womack's BeenThereDoneThat journaling app
