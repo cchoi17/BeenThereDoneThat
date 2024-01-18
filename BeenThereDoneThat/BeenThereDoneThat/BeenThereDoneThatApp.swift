@@ -8,6 +8,26 @@
 // for feed of pics (pic, caption, location) 
 import SwiftUI
 import FirebaseCore
+import FirebaseAuth
+import GoogleSignIn
+import Firebase
+import Foundation
+import UIKit
+
+@main
+struct BeenThereDoneThatApp: App {
+  // register app delegate for Firebase setup
+  @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
+
+  var body: some Scene {
+    WindowGroup {
+      NavigationView {
+        ContentView()
+      }
+    }
+  }
+}
 
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -33,17 +53,3 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
 }
 
-@main
-struct YourApp: App {
-  // register app delegate for Firebase setup
-  @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
-
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        ContentView()
-      }
-    }
-  }
-}

@@ -1,0 +1,6 @@
+framework module Pods_BeenThereDoneThat_BeenThereDoneThatUITests {
+  umbrella header "Pods-BeenThereDoneThat-BeenThereDoneThatUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
