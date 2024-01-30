@@ -16,6 +16,7 @@
 		140D0A332B61C7B2009F6567 /* BeenThereDoneThatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D0A322B61C7B2009F6567 /* BeenThereDoneThatUITestsLaunchTests.swift */; };
 		140D0A512B61ED38009F6567 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 140D0A502B61ED38009F6567 /* FirebaseAnalytics */; };
 		140D0A532B61ED38009F6567 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 140D0A522B61ED38009F6567 /* FirebaseAnalyticsSwift */; };
+		1411DF1E2B6999340002521D /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411DF1D2B6999340002521D /* AuthenticationView.swift */; };
 		142FDB4D2B68686100DA217D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 142FDB4C2B68686100DA217D /* FirebaseAuth */; };
 		142FDB502B68690300DA217D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142FDB4F2B68690300DA217D /* LoginView.swift */; };
 		142FDB522B686A0800DA217D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 142FDB512B686A0800DA217D /* GoogleService-Info.plist */; };
@@ -51,6 +52,7 @@
 		140D0A2C2B61C7B2009F6567 /* BeenThereDoneThatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeenThereDoneThatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		140D0A302B61C7B2009F6567 /* BeenThereDoneThatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeenThereDoneThatUITests.swift; sourceTree = "<group>"; };
 		140D0A322B61C7B2009F6567 /* BeenThereDoneThatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeenThereDoneThatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1411DF1D2B6999340002521D /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		142FDB4F2B68690300DA217D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		142FDB512B686A0800DA217D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		142FDB882B687A3B00DA217D /* coopbla.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coopbla.ttf; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				142FDB4F2B68690300DA217D /* LoginView.swift */,
+				1411DF1D2B6999340002521D /* AuthenticationView.swift */,
 			);
 			path = LoginScreen;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			files = (
 				142FDB502B68690300DA217D /* LoginView.swift in Sources */,
 				140D0A182B61C7B0009F6567 /* ContentView.swift in Sources */,
+				1411DF1E2B6999340002521D /* AuthenticationView.swift in Sources */,
 				140D0A162B61C7B0009F6567 /* BeenThereDoneThatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
