@@ -16,7 +16,9 @@ struct BeenThereDoneThatApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack{
+                InitialView()
+            }
         }
     }
 }

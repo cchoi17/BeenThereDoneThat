@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct LoginView: View {
-
+struct InitialView: View {
+    @State private var showSignInView: Bool = false
     let image1 = Image("loginPic")
     let image2 = Image("checkers")
     var body: some View {
@@ -20,7 +20,7 @@ struct LoginView: View {
                 .font(.custom("Cooper Lt BT", size:30))
                 .padding(.top,50)
             NavigationLink{
-                AuthenticationView()
+                LoginPage(showSignInView: $showSignInView)
             }label: {
                 Text("Login")
                     .font(.custom("Cooper Lt BT", size:20))
@@ -32,7 +32,7 @@ struct LoginView: View {
                     .padding(.top,20)
             }
             NavigationLink{
-                Text("Hello") // replace this with a sign up view
+                SignUpPage(showSignInView: $showSignInView)
             }label: {
                 Text("Sign Up")
                     .font(.custom("Cooper Lt BT", size:20))
@@ -52,14 +52,15 @@ struct LoginView: View {
         .navigationTitle("")
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color("MyBeige"))
+        
     }
         
 }
 
-struct LoginView_Previews: PreviewProvider{
+struct InitialView_Previews: PreviewProvider{
     static var previews: some View{
         NavigationStack{
-            LoginView()
+            InitialView()
         }
     }
 }
