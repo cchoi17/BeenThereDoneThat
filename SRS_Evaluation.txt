@@ -1,0 +1,67 @@
+
+
+Evaluation and Feedback
+CMSI 4072 project ~ Spring 2024
+Christina Choi and Troy Womack-Henderson
+Been There Done That project
+==============================
+
+Software Requirements Specification Document:
+---------------------------------------------
+-- Introduction Section
+   Very nice job on this section.  The diagram is very good and quite a help
+   in understanding the parts and their relationships.  Excellent work!
+
+-- Functional Requirements
+   For this section and the next, you have too much in each requirement, and
+   not enough requirements overall.  When doing a waterfall SRS, you'll want
+   to have each numbered requirement be ONE SENTENCE.  If you have more than
+   one, you need to split them up into separate requirements, each with its
+   own number.  Also, if you see the word "and" in a requirement, that is an
+   indication again that there are two requirements there.
+
+   That being said, you need to have MORE requirements even still.  The SRS
+   should *fully* specify the application.  This means that the model part
+   should have more than two requirements, or even after splitting them, it
+   needs more than ten.  Here's an example using requirement 5.2.2.1:
+
+   IS:
+   5.2.2.1 When the controller requests FireBase for user authentication,
+           FireBase shall run that request, looking for that email and seeing
+           if the password associated with that email matches the one the user
+           inputted. If it does, it passes the data along to the controller.
+
+   SHOULD BE:
+   5.2.2.1 The model CSU shall be implemented using FireBase.
+   5.2.2.2 The model shall accept requests from the controller.
+           One type of controller request will be for user authentication
+   5.2.2.3 The model shall run authentication requests by passing them to
+           Firebase.
+           Authentication requests will include the user's e-mail address.
+           Authentication requests will include the user's password.
+   5.2.2.4 The model shall, using Firebase built-in functions, find records
+           matching the e-mail address.
+   5.2.2.5 The model shall, upon matching a record to the e-mail contained
+           in the authentication request, compare the password from the
+           authentication reqest with the password from the matched record.
+   5.2.2.6 Properly matched authentication data shall be returned to the
+           controller.
+
+   This is the kind of specificity that is needed for requirements.  Yeah,
+   it's a lot..... :)
+
+-- Performance Requirements
+   The same thing applies to this section as to the previous section.
+
+-- Environment Requirements
+   Perfect!  No additional comments on this section.
+
+
+=============================================================================
+your score:  9% out of 10% which is an A-minus
+
+All in all, pretty good first effort, you just need to fill in more specifics
+as I showed above.
+
+Make the changes as suggested above for the second submission, including many
+more requirements, and you'll get the full 10% on this document.
