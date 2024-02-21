@@ -1,0 +1,49 @@
+
+Evaluation and Feedback
+CMSI 4072 project ~ Spring 2024
+Christina Choi and Troy Womack-Henderson
+Been There Done That project
+Evaluation for homework02
+===============================
+
+5-1 component-based vs service-oriented             5 of  5 points
+5-2 most appropriate architecture for tictactoe     5 of  5 points
+5-4 internet chess appropriate architecture         5 of  5 points
+5-6 database for ClassyDraw                         5 of  5 points
+5-8 state machine diagram for floats                7 of 10 points
+6-1 compare/contrast ClassyDraw subclasses         10 of 10 points
+6-2 inheritance diagram from 6-1                   10 of 10 points
+
+
+Total possible score: 50 points
+
+EVALUATION
+============================================================================
+Your score: 47 out of 50 = 94.0% which is an A
+
+Comments:
+---------
+Nice work on this assignment.
+
+On 5.2, good case made for rule-based architecture, although that is usually
+reserved for an 'expert system'.  Those are very interesting, actually, and
+are quite useful for diagnostic type applications.  It raises an interesting
+idea, though, and I think I'll put some time into making a tic-tac-toe game
+for my CMSI 627 class as a demonstration!  Thanks for the idea!
+
+On 5.6 again a good case for your selection.  Did you consider a File-based
+architecture at all?  Since each drawing is its own file, that might be
+another way of thinking about it.
+
+On 5.8 there are a couple of options missing.  For example, what if the user
+input starts directly with a number, and has no plus or minus as the first
+character?  Also, you don't specifically handle the decimal point character,
+and again you are forcing the number to have a sign in the exponent even if
+it is positive where the sign is implied.
+
+On 6.2, as professional-looking as everything else is in this submission, I
+would respectfully suggest downloading a drawing application of some form so
+that your diagrams reflect the care and thought you've obviously put into
+this document.
+
+Good job overall, and keep it up ~ you two are doing very well!!
