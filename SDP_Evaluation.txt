@@ -1,0 +1,31 @@
+
+
+Evaluation and Feedback
+CMSI 4072 project ~ Spring 2024
+Christina Choi and Troy Womack-Henderson
+Been There Done That project
+=============================================
+
+Software Development Plan Document:
+---------------------------------------------
+-- General Comments
+   This is VERY good work!  You two have really nailed the development plan
+   for your project.  I like the way you used sprints to track the progress
+   of your development!
+
+-- Introduction Section
+   Perfect ~ no further comments, nothing to add for the second submission.
+
+-- Project Resources Section
+   Perfect ~ no further comments, nothing to add for the second submission.
+
+-- Project Organization Section
+   Perfect ~ no further comments, nothing to add for the second submission.
+
+-- Project Schedule Section
+   Perfect ~ no further comments, nothing to add for the second submission.
+
+=============================================================================
+your score:  10% out of 10% which is an A-plus
+
+You are good to go.  Full credit for both the first and second submission.
