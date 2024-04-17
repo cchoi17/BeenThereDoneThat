@@ -1,0 +1,51 @@
+
+Evaluation and Feedback
+CMSI 4072 project ~ Spring 2024
+Christina Choi and Troy Womack-Henderson
+Been There Done That project
+Evaluation for homework03
+===============================
+
+7-1  Fix comments for Euclid's Algorithm        5 out of 5 points
+7-2  Two conditions for bad comments            4 out of 4 points
+7-4  Apply offensive programming ex.3           5 out of 5 points
+7-5  Should you add error handling?             4 out of 4 points
+7-7  Top-down drive to market / assumptions     5 out of 5 points
+8-1  Implementation of IsRelativelyPrime        5 out of 5 points
+8-3  Which testing methods used in 8-1 [gimme]  5 out of 5 points
+8-5  Implementation of AreRelativelyPrime       4 out of 4 points
+8-9  Exhaustive is black/white/gray & why       2 out of 4 points
+8-11 Lincoln estimate / number bugs             3 out of 5 points
+8-12 Lincoln estimate no common bugs            4 out of 4 points
+
+Total possible score: 50 points
+============================================================================
+
+Your score: 46 out of 50 = 92% which is an A-minus
+
+Comments/feedback:
+
+problem 7-2: Good insight on those reasons.
+
+problem 7-5: Good call on handling errors in the CALLER, not the CALLED.
+
+problem 7-7: I like Snickers, but I like Kit-Kat better...  :grin:  I'll
+   happily settle, though!
+
+problem 8-9: Actually, exhaustive testing is BLACK box, not WHITE box, since
+   all you need is the list of inputs and the matching outputs.  You don't
+   need to know anything about how the innards work for this, although if
+   you are the person that must correct any problems, THEN you would need to
+   understand what's inside.  Still, you made a decent case for your answer.
+
+Problem 8-11: The Lincoln index counts product of bugs divided by bugs in
+   common.  In the example Alice finds 5 and Bob finds 4, and there are two
+   bugs they found *in common*.  Thus their index is (5 * 4) / 2 or 10 bugs.
+   Since there are three combinations of two, you must take the average of
+   all three calculations which comes out to 14 bugs.
+
+Good job!!
+
+It has been a great pleasure to have you folks in my classes over the years,
+and I look forward to hearing from you as you make your marks upon the world
+and the industry.  Keep up the good work!
